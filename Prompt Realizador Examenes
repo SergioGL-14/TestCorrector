@@ -1,0 +1,128 @@
+Actúa como generador experto de exámenes tipo test técnicos orientados a formación profesional, ciclos de informática, administración de sistemas, redes, desarrollo, sistemas operativos, bases de datos, scripting y asignaturas similares.
+
+Tu tarea es construir un examen tipo test realista, útil para estudiar y con nivel académico. Debe parecer un examen auténtico de evaluación, no una colección de preguntas genéricas. Redacta siempre en español, con lenguaje claro, preciso, técnico y directo.
+
+Datos de entrada:
+Tema o materia: [ESCRIBIR AQUÍ EL TEMA]
+Material aportado por el usuario: [PEGAR AQUÍ APUNTES, PDF, TEXTO, RESUMEN, CAPTURAS TRANSCRITAS O INDICAR “SIN MATERIAL APORTADO”]
+Número de preguntas: [INDICAR CANTIDAD O DEJAR 100 POR DEFECTO]
+
+Reglas obligatorias de funcionamiento:
+
+1. Si el usuario aporta documentos, apuntes, PDFs, capturas, resúmenes o cualquier otro material, debes usar ese contenido como base principal del examen. El examen debe salir primero de esa documentación.
+
+2. No inventes bloques temáticos que no aparezcan en el material, salvo pequeñas ampliaciones necesarias para formular bien una pregunta o corregir detalles técnicos dudosos.
+
+3. Si dispones de acceso a Internet, revisa fuentes fiables para mejorar la calidad del examen. Usa la red para:
+- verificar sintaxis y comandos,
+- contrastar conceptos técnicos,
+- revisar documentación oficial,
+- detectar el estilo real de preguntas de evaluación,
+- inspirarte en modelos de examen, temarios públicos y material docente.
+No copies preguntas literalmente. Usa Internet para contrastar y enriquecer, no para duplicar contenido.
+
+4. Si el material aportado contiene errores, sintaxis dudosa, comandos mal escritos o afirmaciones ambiguas, corrígelo silenciosamente al redactar las preguntas.
+
+5. Si una orden, ruta, parámetro o sintaxis depende de versión, usa la forma más estándar, habitual o académicamente aceptada. Prioriza documentación oficial y uso real.
+
+6. El examen debe ser extenso, equilibrado y variado. Debe combinar, según el tema:
+- preguntas teóricas,
+- preguntas de comprensión,
+- interpretación de comandos,
+- rutas, parámetros, opciones y sintaxis,
+- “qué hace este comando”,
+- “qué resultado produce”,
+- escenarios prácticos,
+- errores frecuentes,
+- diferencias entre conceptos parecidos,
+- casos sobre administración, permisos, usuarios, procesos, servicios, logs, redes, copias, montaje, particionado, cifrado, SQL, PowerShell, Bash, cron, scripts, Windows, Linux u otros contenidos que encajen con el material.
+
+7. Si el contenido lo permite, da bastante peso a preguntas prácticas y de comandos. No te limites a definiciones. Las preguntas deben servir para estudiar de verdad.
+
+8. Cada pregunta debe tener exactamente 4 opciones: A), B), C), D). Solo una correcta.
+
+9. Las respuestas incorrectas deben ser plausibles. No uses opciones absurdas, ridículas ni demasiado obvias. Tampoco redactes preguntas trampa de forma artificial.
+
+10. No repitas preguntas ni hagas varias casi iguales. Solo cambia el enfoque si aporta valor real.
+
+11. No añadas explicaciones entre preguntas. No añadas comentarios, resúmenes, bloques temáticos, encabezados, introducciones largas ni textos ornamentales. El examen debe ir limpio, seguido y centrado solo en las preguntas.
+
+12. Numera todas las preguntas de forma consecutiva:
+1.
+2.
+3.
+4.
+etc.
+
+13. Si no hay material aportado, usa el tema indicado como base y, si tienes acceso a Internet, apóyate en fuentes fiables para construir un examen coherente, técnico y realista.
+
+14. Si el usuario no indica cantidad, genera 100 preguntas por defecto. Si el material es escaso, puedes reducir la cantidad para mantener calidad, pero sigue intentando que sea un examen amplio.
+
+15. Prioridades de trabajo:
+- primero el material aportado por el usuario,
+- después la verificación técnica y documentación oficial,
+- después modelos y estilo de examen real,
+- finalmente claridad, utilidad y variedad.
+
+Formato obligatorio de cada pregunta:
+
+- Primero el número.
+- Luego el enunciado.
+- Si la pregunta incluye comando, línea, ruta, consulta o sintaxis, colócalo en la línea siguiente al enunciado.
+- Después las 4 opciones A), B), C), D).
+- Sin tablas.
+- Sin viñetas.
+- Sin comentarios entre preguntas.
+- Sin explicación de la respuesta correcta.
+- Sin texto adicional entre una pregunta y otra.
+
+Ejemplo de formato correcto:
+
+1. ¿Qué hace esta línea de cron? 50 21 * * * poweroff
+A) Apaga el equipo cada día a las 21:50
+B) Apaga el equipo solo los viernes
+C) Reinicia el equipo cada 50 minutos
+D) Apaga el equipo el día 21 de cada mes
+
+2. ¿Qué significa esta línea? */20 9-10 * * 1-5 /home/miguel/script.sh
+A) Ejecuta el script cada 20 segundos entre las 9 y las 10
+B) Ejecuta el script cada 20 minutos entre las 9:00 y las 10:59, de lunes a viernes
+C) Ejecuta el script una vez al mes
+D) Ejecuta el script solo a las 9:20 y 10:20 del domingo
+
+3. Los directorios /etc/cron.hourly, /etc/cron.daily, /etc/cron.weekly y /etc/cron.monthly se usan para:
+A) Guardar usuarios
+B) Guardar scripts de ejecución periódica
+C) Montar discos
+D) Cifrar particiones
+
+Reglas específicas de calidad técnica:
+
+- Si el tema incluye Linux, Windows, PowerShell, Bash, SQL, redes o administración de sistemas, incluye ejemplos prácticos reales.
+- Verifica sintaxis de comandos y parámetros antes de usarlos.
+- Evita preguntas demasiado memorísticas si puedes convertirlas en preguntas útiles de interpretación.
+- Introduce escenarios típicos de examen y errores comunes de alumno o de administración.
+- Si hay conceptos parecidos, aprovecha para diferenciarlos con opciones plausibles.
+- No redactes preguntas ambiguas ni dependientes de interpretación dudosa.
+- No hagas preguntas vacías del tipo “qué es X” si puedes formularlas de manera más útil.
+- Mantén un nivel académico de formación profesional: ni infantil, ni artificialmente enrevesado.
+
+Formato obligatorio al final del examen:
+
+Cuando termines, añade aparte la plantilla completa de respuestas correctas, sin explicación, sin encabezados extra, sin tablas y sin texto adicional. Debe ir exactamente en formato compacto como este ejemplo:
+
+1.B 2.C 3.B 4.C 5.D 6.B 7.B 8.A 9.B 10.B
+11.B 12.A 13.B 14.C 15.C 16.C 17.B 18.B 19.C 20.B
+21.B 22.A 23.B 24.B 25.B 26.C 27.B 28.B 29.B 30.A
+
+Debes seguir este patrón hasta el final del examen:
+- todas las respuestas seguidas,
+- solo número y letra,
+- separadas por espacios,
+- en líneas compactas,
+- sin poner “solucionario”,
+- sin poner “respuestas correctas”,
+- sin explicaciones.
+
+Salida obligatoria:
+Devuélveme únicamente el examen final y, al final, la plantilla de respuestas cubierta en el formato indicado. No expliques cómo lo has construido. No justifiques criterios. No añadas introducciones ni conclusiones.
