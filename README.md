@@ -477,7 +477,7 @@ Si el proyecto creciera mucho, sería razonable separar lógica de interfaz, par
 ---
 
 ## Autor
-Desarrollado por [SergioGL](https://github.com/SergioGL-14)]
+Desarrollado por [SergioGL](https://github.com/SergioGL-14)
 
 
 
