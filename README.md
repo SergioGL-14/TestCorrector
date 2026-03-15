@@ -1,8 +1,8 @@
 # TestCorrector
 
-TestCorrector es una aplicación de escritorio hecha en PowerShell para cargar preguntas tipo test, responderlas desde una interfaz gráfica WPF y corregir el resultado a partir de una plantilla de respuestas. El repositorio incluye además dos prompts orientados a preparar material de estudio y a localizar recursos reales de examen, por lo que el proyecto no se queda solo en la corrección visual del test, sino que también cubre la parte previa de búsqueda y generación de contenido de práctica. ([github.com](https://github.com/SergioGL-14/TestCorrector/tree/main))
+TestCorrector es una aplicación de escritorio hecha en PowerShell para cargar preguntas tipo test, responderlas desde una interfaz gráfica WPF y corregir el resultado a partir de una plantilla de respuestas. El repositorio incluye además dos prompts orientados a preparar material de estudio y a localizar recursos reales de examen, por lo que el proyecto no se queda solo en la corrección visual del test, sino que también cubre la parte previa de búsqueda y generación de contenido de práctica.
 
-La idea del repositorio es bastante directa: disponer de una herramienta local para resolver y corregir cuestionarios, y acompañarla con dos prompts reutilizables que permitan montar mejor el flujo completo de preparación. Uno sirve para generar exámenes tipo test técnicos con formato limpio y plantilla final de respuestas, y el otro está pensado para buscar exámenes reales, convocatorias anteriores, simulacros docentes y materiales auténticos de evaluación. ([github.com](https://github.com/SergioGL-14/TestCorrector/raw/refs/heads/main/Prompt%20Realizador%20Examenes))
+La idea del repositorio es bastante directa: disponer de una herramienta local para resolver y corregir cuestionarios, y acompañarla con dos prompts reutilizables que permitan montar mejor el flujo completo de preparación. Uno sirve para generar exámenes tipo test técnicos con formato limpio y plantilla final de respuestas, y el otro está pensado para buscar exámenes reales, convocatorias anteriores, simulacros docentes y materiales auténticos de evaluación.
 
 ---
 
@@ -14,7 +14,7 @@ Actualmente el repositorio contiene estos elementos principales:
 * `Prompt Realizador Examenes`
 * `Promt Buscador Examenes`
 * `README.md`
-* `LICENSE` ([github.com](https://github.com/SergioGL-14/TestCorrector/tree/main))
+* `LICENSE`
 
 La pieza central es la aplicación WPF, pero los dos prompts complementan muy bien el uso del proyecto porque ayudan a crear o localizar material con el que luego trabajar dentro del corrector.
 
@@ -39,7 +39,7 @@ La corrección usa una fórmula con penalización:
 A - (E / 2)
 ```
 
-Donde `A` son los aciertos y `E` los errores. Las preguntas en blanco no suman ni restan. Después calcula la nota sobre 10 y el porcentaje final. ([github.com](https://github.com/SergioGL-14/TestCorrector/tree/main))
+Donde `A` son los aciertos y `E` los errores. Las preguntas en blanco no suman ni restan. Después calcula la nota sobre 10 y el porcentaje final.
 
 ---
 
